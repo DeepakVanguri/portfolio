@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200">
+  <!-- Background -->
+  <rect width="300" height="200" fill="#2a2a2a"/>
+  
+  <!-- Finance App UI -->
+  <rect x="50" y="40" width="200" height="120" rx="10" fill="#7c4dff" opacity="0.9"/>
+  
+  <!-- Chart -->
+  <polyline points="70,120 100,90 130,100 160,70 190,85 220,60" stroke="#00e5ff" stroke-width="3" fill="none"/>
+  
+  <!-- Dots on chart -->
+  <circle cx="70" cy="120" r="4" fill="#ffffff"/>
+  <circle cx="100" cy="90" r="4" fill="#ffffff"/>
+  <circle cx="130" cy="100" r="4" fill="#ffffff"/>
+  <circle cx="160" cy="70" r="4" fill="#ffffff"/>
+  <circle cx="190" cy="85" r="4" fill="#ffffff"/>
+  <circle cx="220" cy="60" r="4" fill="#ffffff"/>
+  
+  <!-- Currency symbols -->
+  <text x="80" y="60" font-family="Arial" font-size="14" fill="#ffffff">$</text>
+  <text x="210" y="60" font-family="Arial" font-size="14" fill="#ffffff">€</text>
+  
+  <!-- App UI elements -->
+  <rect x="70" y="130" width="160" height="10" rx="5" fill="#ffffff" opacity="0.5"/>
+  <rect x="70" y="150" width="70" height="10" rx="5" fill="#ffffff" opacity="0.5"/>
+  <rect x="160" y="150" width="70" height="10" rx="5" fill="#ffffff" opacity="0.5"/>
+</svg>

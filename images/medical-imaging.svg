@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200">
+  <!-- Background -->
+  <rect width="300" height="200" fill="#2a2a2a"/>
+  
+  <!-- Medical scan frame -->
+  <rect x="50" y="40" width="200" height="120" rx="5" fill="#7c4dff" opacity="0.2"/>
+  <rect x="55" y="45" width="190" height="110" rx="3" fill="#2a2a2a" stroke="#7c4dff" stroke-width="2"/>
+  
+  <!-- Brain scan image -->
+  <ellipse cx="150" cy="100" rx="70" ry="50" fill="none" stroke="#00e5ff" stroke-width="1.5"/>
+  <path d="M110,80 Q150,40 190,80" fill="none" stroke="#00e5ff" stroke-width="1.5"/>
+  <path d="M110,120 Q150,160 190,120" fill="none" stroke="#00e5ff" stroke-width="1.5"/>
+  <path d="M150,50 Q150,100 150,150" fill="none" stroke="#00e5ff" stroke-width="1.5"/>
+  
+  <!-- Highlighted area -->
+  <circle cx="170" cy="90" r="15" fill="#b388ff" opacity="0.5" stroke="#b388ff" stroke-width="1" stroke-dasharray="2,2"/>
+  
+  <!-- Data points/nodes -->
+  <circle cx="130" cy="85" r="3" fill="#00e5ff"/>
+  <circle cx="160" cy="75" r="3" fill="#00e5ff"/>
+  <circle cx="170" cy="110" r="3" fill="#00e5ff"/>
+  <circle cx="140" cy="120" r="3" fill="#00e5ff"/>
+  <circle cx="120" cy="100" r="3" fill="#00e5ff"/>
+  
+  <!-- AI processing indicators -->
+  <rect x="260" y="60" width="10" height="20" fill="#7c4dff" opacity="0.8"/>
+  <rect x="260" y="90" width="10" height="30" fill="#7c4dff" opacity="0.8"/>
+  <rect x="260" y="130" width="10" height="10" fill="#7c4dff" opacity="0.8"/>
+  
+  <!-- Text analysis representation -->
+  <line x1="30" y1="60" x2="40" y2="60" stroke="#ffffff" stroke-width="1"/>
+  <line x1="30" y1="70" x2="35" y2="70" stroke="#ffffff" stroke-width="1"/>
+  <line x1="30" y1="80" x2="38" y2="80" stroke="#ffffff" stroke-width="1"/>
+  <line x1="30" y1="90" x2="40" y2="90" stroke="#ffffff" stroke-width="1"/>
+  <line x1="30" y1="100" x2="36" y2="100" stroke="#ffffff" stroke-width="1"/>
+  
+  <!-- Connection lines between text and image -->
+  <line x1="40" y1="80" x2="80" y2="100" stroke="#ffffff" stroke-width="0.5" stroke-dasharray="3,3"/>
+  
+  <!-- Magnifying glass -->
+  <circle cx="200" cy="150" r="10" fill="none" stroke="#ffffff" stroke-width="1.5"/>
+  <line x1="207" y1="157" x2="215" y2="165" stroke="#ffffff" stroke-width="1.5"/>
+</svg>
